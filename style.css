@@ -1,0 +1,160 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background-color: antiquewhite;
+}
+
+header {
+  position: sticky;
+  top: 0;
+}
+
+.navbar {
+  background-color: black;
+  height: 50px;
+}
+
+.navbar ul li {
+  padding: 0px 0px 0px 25px;
+  list-style-type: none;
+  display: inline;
+  font-size: 20px;
+  color: white;
+  line-height: 50px;
+}
+
+.navbar ul li:hover {
+  cursor: pointer;
+  text-decoration: underline green;
+  color: wheat;
+}
+
+main {
+  margin-top: 5px;
+}
+
+.container {
+  width: 70%;
+  margin: 0 auto;
+}
+
+.box {
+  width: 30vw;
+  /* max-height: 600px; */
+  border: 1px solid gray;
+  box-shadow: 15px 5px 8px rgb(83, 127, 127);
+}
+
+#item1 {
+  float: left;
+  background-color: rgb(53, 90, 90);
+}
+
+#item2 {
+  margin-bottom: 5px;
+  float: right;
+  background-color: rgb(53, 90, 90);
+
+}
+
+.note {
+  clear: both;
+  border: 1px solid black;
+  border-radius: 15px;
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.note p {
+  text-align: center;
+}
+
+.logo {
+  position: fixed;
+  width: 50px;
+  height: 50px;
+  background-color: rgb(232, 131, 131);
+  border-radius: 50px;
+  bottom: 0px;
+  right: 0px;
+}
+.logo p{
+  text-align: center;
+  font-size: 30px;
+  margin-top: 10px;
+}
+.footer {
+  margin-top: 5px;
+  border: 1px solid black;
+  padding: 20px;
+  background-color: black;
+}
+
+.footer p {
+  text-align: center;
+  color: wheat
+}
+
+/* design card*/
+
+.card {
+  width: 28vw;
+  background-color: white;
+  margin: 0 auto;
+  margin-bottom: 15px;
+}
+
+.card .image {
+  width: 26vw;
+  height: 200px;
+  margin: 1vw;
+  border-radius: 15px;
+  background-color: aqua;
+}
+
+.card .image img {
+  border-radius: 15px;
+}
+
+/* .card .header {} */
+
+.card .header span {
+  border: 1px solid black;
+  padding: 5px 10px 5px 10px;
+  margin-left: 15px;
+  border-radius: 10px;
+  background-color: green;
+  color: white;
+}
+
+.card .body {
+  margin-top: 5px;
+  margin-left: 15px;
+  padding: 5px;
+}
+
+.card .body p {
+  text-align: justify;
+}
+
+.card .card-footer {
+  text-align: center;
+  padding: 10px;
+}
+
+.card .card-footer button {
+  width: 80px;
+  height: 30px;
+  border: none;
+  border-radius: 10px;
+  background-color: aqua;
+}
+
+button:hover {
+  cursor: pointer;
+  opacity: 0.5;
+}
